@@ -35,7 +35,6 @@ for i, item in enumerate(panchayat_list):
     try:
 
         print 'Getting data for muster', str(i + 1), 'of', n
-        print str(item+2),'of','n' #hatani hai line
 
         post_data = {
             'panchayat_code': item['panchayat_code'],
