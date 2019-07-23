@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#Author:-Nilay Trivedi
+#dATE:-23/7/2019
 import pandas as pd
 import json
 import requests
@@ -8,6 +10,7 @@ import MySQLdb
 #change db according to database name and host
 seed = 238610
 n = 200
+#Change file name and destination acccording to output file
 with open('../secrets.json') as data_file:
     CLIENT_SECRETS = json.load(data_file)
 USERNAME = CLIENT_SECRETS['username']
