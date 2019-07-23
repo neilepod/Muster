@@ -1,3 +1,6 @@
+#Author:-Nilay Trivedi
+#Date:-27/7/2019
+#Code to change json file into mysql database
 import pandas as pd
 from sqlalchemy import create_engine
 
